@@ -1,0 +1,28 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "*",
+    "imask": "*",
+    "parcel": "*",
+    "qr-scanner": "*",
+    "qrcode": "*"
+  },
+  "devDependencies": {
+    "@parcel/transformer-inline-string": "*",
+    "@parcel/transformer-sass": "*",
+    "@types/qrcode": "*"
+  }
+}
